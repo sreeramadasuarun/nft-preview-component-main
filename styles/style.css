@@ -41,7 +41,6 @@
       border-radius: 7px;
   }
 
-
   .text {
       display: flex;
       flex-direction: column;
@@ -62,23 +61,16 @@
 
   .days-details-container {
       display: flex;
-      flex-direction: row;
       justify-content: space-between;
-
+      align-items: center;
   }
 
-  .left-details {
-      display: flex;
-      flex-direction: row;
-      gap: 0.4rem;
-  }
-
+  .left-details,
   .right-details {
       display: flex;
       flex-direction: row;
       gap: 0.4rem;
   }
-
 
   .line {
       opacity: 0.4;
@@ -90,7 +82,6 @@
       flex-direction: row;
       align-items: center;
       color: hsl(215, 51%, 70%);
-
   }
 
   .footer p {
